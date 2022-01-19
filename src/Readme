@@ -1,7 +1,10 @@
 Inheritance:
 
 Inheritance is one of the OOPS concepts, where a parent class's attributes and methods are
-inherited by one or more child or derived(sub) classes. The parent class should be one and the child classes can be many.
+inherited by one or more child or derived(sub) classes. The parent class should be one and the child classes can be many.The inheritence is achieved using the keyword
+extends.
+
+Child class extends Parent class
 
 Polymorphism:
 
@@ -10,7 +13,8 @@ Polymorphism is also one of the OOPS concepts, where a single method is used in 
 Method Overriding:
 
 The Inheritance concept of OOPS is used in the case of Method overriding. For a method to be overridden,
-we need to have one or more Subclasses which inherits and overrides the method of the parent class. Overriding means changing the functionality of the method. As the functionality is affected during the execution of the program it is also called as "runtime polymorphism".(Dynamic polymorphism).
+we need to have one or more Subclasses which inherits and overrides the method of the parent class. Overriding means changing the functionality of the method. 
+As the functionality is affected during the execution of the program it is also called as "runtime polymorphism".(Dynamic polymorphism).
 
 Method Overloading:
 
