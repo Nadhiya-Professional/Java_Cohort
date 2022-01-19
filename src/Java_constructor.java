@@ -42,6 +42,10 @@ public class Java_constructor {
                 int c = a / b;
                 System.out.println("c is :" + c);
             }
+            static void modulo(int a, int b){
+                int c = a % b;
+                System.out.println("c is:"+c);
+            }
 
         public static void main(String args[]){
             Scanner in = new Scanner(System.in);
@@ -54,6 +58,7 @@ public class Java_constructor {
             jc.subtraction();
             jc.multiplication();
             jc.division();
+            modulo(a,b);
         }
     }
 

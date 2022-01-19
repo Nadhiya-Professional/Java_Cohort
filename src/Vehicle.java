@@ -25,7 +25,7 @@ class MountainCycle extends Vehicle
         this.color = color;
     }
 
-    //Method to display both Cycle and MountainCycle class attributes
+    //Method to display both Vehicle and MountainCycle class attributes
 
     public void ride()
     {
