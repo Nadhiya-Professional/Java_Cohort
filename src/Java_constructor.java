@@ -1,15 +1,24 @@
 
+
+
+//CONSTRUCTORS:
+//
+//Constructors are a special Method, that is called when an object is instantiated,using the new keyword. It initializes the newly created object for further use.
+//
+//  Class obj = new Class();
+
 import java.util.Scanner;
 
-public class Java_Cohort {
+public class Java_constructor {
+
             private final int a; // variable 'a' defined in the default constructor.
-            private final int b ;
-            
+            private final int b;
+
             //In default constructor the instance variables are set. These variables can be accessed by the methods with in this class.
             // this is used to refer to current object or instance of the class. This is mainly used to differentiate between the class variables
             // and the attributes that are passed in the constructor, if they have same name.
 
-            public Java_Cohort(int a,int b) {
+            public Java_constructor(int a, int b) {
                 this.a = a;
                 this.b = b;
             }
@@ -40,7 +49,7 @@ public class Java_Cohort {
             int a = in.nextInt();
             System.out.println("Please enter the second number:");
             int b = in.nextInt();
-            Java_Cohort jc = new Java_Cohort(a,b); // default constructor is called whenever the object is created.
+            Java_constructor jc = new Java_constructor(a,b); // default constructor is called whenever the object is created.
             jc.addition(); // using the object of the class operation we are accessing the methods of the class.
             jc.subtraction();
             jc.multiplication();
